@@ -51,14 +51,6 @@ header.style1 nav {
 
 
 @media (max-width: 1445px) {
-header.style1 .header-right{display:none;}
-ul.mb-0.list-unstyled.d-inline-flex {
-    padding-right: 15px;
-}
-header.style1 .topbar {
-    padding-right: 20.5625rem;
-    padding-left: 0px;
-}
 header.style1 nav {
   flex: 0 0 calc(100% - 26.5625rem);
   max-width: calc(100% - 26.5625rem);
@@ -67,7 +59,6 @@ header.style1 nav {
 .wide-sec {
   width: calc(100% + 12rem);
   margin-left: -6rem;
-  margin-right: -6rem;
 }
 .serv-box {padding: 3.125rem 2rem;}
 .time-wrap, 
@@ -99,7 +90,6 @@ header.style1 nav {
 
 
 @media (max-width: 1370px) {
-
 header.style1 nav {padding-left: 2.375rem;}
 header.style1 .logo {
   flex: 0 0 22rem;
@@ -143,8 +133,8 @@ header.style2 .topbar,
 
 @media (max-width: 1290px) {
 nav > div > ul > li {
-    margin-right: 0rem;
-    font-size: 1.0625rem;
+  margin-right: 1.8rem;
+  font-size: 1.0625rem;
 }
 nav ul ul ul {
   left: auto;
@@ -190,7 +180,6 @@ nav ul ul ul {
 .wide-sec2 {
   width: 100%;
   margin-left: 0;
-  margin-right: 0;
 }
 .time-title > p {
   font-size: .9375rem;
@@ -208,8 +197,8 @@ nav ul ul ul {
   left: 18.2rem;
   bottom: 2rem;
 }
-.time-list3 {margin: 0; padding:0;}
-.about-wrap3 {padding: 0 15px;}
+.time-list3 {margin: 0;}
+.about-wrap3 {padding: 0;}
 .plyr-wrp.v3 {max-width: 100%;}
 .hlf-bg {max-width: 28%;}
 .pillars-wrap2 {padding: 5rem 2.5rem;}
@@ -242,13 +231,6 @@ header.style3 .header-right {display: none;}
 
 
 @media (max-width: 1070px) {
-.team-detail-inner.w-100 {
-    padding: 0 30px;
-}
-.rspn-cnt {
-    display: inline-block;
-    padding-left: 5rem;
-}
 header,
 .sticky-menu {display: none !important;}
 .rspn-hdr {display: block;}
@@ -455,12 +437,6 @@ header,
 
 
 @media (max-width: 995px) {
-.team-detail-info-inner .social-links4.text-center {
-    direction: rtl;
-}
-ul.time-list2 {
-    padding: 0;
-}
 .res-row {overflow-x: auto;}
 .res-row > .row {flex-wrap: nowrap;}
 .feat-wrap ul.slick-dots {right: 2rem;}
@@ -498,10 +474,7 @@ ul.time-list2 {
 .event-sermon-wrap {padding: 0 15%;}
 .event-wrap2 {margin-bottom: 4rem;}
 .urgent-donat-info {padding-left: 2.2rem;}
-.time-wrap2 {
-    padding-left: 0;
-	padding-right:0;
-}
+.time-wrap2 {padding-left: 0;}
 .time-title {
   padding: 2rem 1rem;
   text-align: center;
@@ -524,7 +497,7 @@ ul.time-list2 {
   height: 20rem;
 }
 .learn-inner {
-  padding: 0 15px;
+  padding: 0;
   margin-top: 3rem;
 }
 .pillars-wrap2,
@@ -533,7 +506,7 @@ ul.time-list2 {
 .sponsor-inner {padding: 0;}
 .sponsor-title > h2 {max-width: 80%;}
 .donate-inner {padding: 0;}
-.donate-box-wrap {padding-left: 0; padding-right:0;}
+.donate-box-wrap {padding-left: 0;}
 .post-detail-info + .post-detail-desc > p:nth-of-type(2), 
 .post-detail-desc > p:nth-of-type(6) {margin-top: 1.875rem;}
 .mini-post-box {align-items: center;}
@@ -588,10 +561,9 @@ ul.time-list2 {
   margin-top: -2rem;
 }
 .feat-cap.left-icon {
-    text-align: center;
-    padding-left: 0;
-    max-width: 100%;
-    padding-right: 0;
+  text-align: center;
+  padding-left: 0;
+  max-width: 100%;
 }
 .feat-cap.left-icon > i {
   top: auto;
@@ -648,9 +620,7 @@ ul.time-list2 {
 .pagination-wrap.mt-60,
 .pagination-wrap.mt-70,
 .pagination-wrap.mt-80 {margin-top: 3rem;}
-.post-detail-info {
-    padding-left: 0.5rem;
-}
+.post-detail-info {padding-left: 8.5rem;}
 .sermon-detail-info-wrap > div.row > div {
   flex: 0 0 100% !important;
   max-width: 100% !important;
@@ -787,7 +757,6 @@ ul.time-list2 {
 
 
 @media (max-width: 767px) {
-
 .cont-form,
 .about-inner2 {margin-top: 3rem;}
 
@@ -839,15 +808,6 @@ ul.time-list2 {
 
 
 @media (max-width: 576px) {
-.wide-sec {
-    width: calc(100% + 0rem);
-    margin-left: 0;
-    margin-right:  0;
-}
-.course-list-wrap > h3 + .course-list {
-    margin-top: -.9375rem;
-    padding-right: 0;
-}
 .res-row,
 .team-wrap.res-row,
 .speaker-inner.res-row,
@@ -1216,10 +1176,7 @@ ul.comments-list ul.children,
 .donat-methods {justify-content: initial;}
 .donat-methods > img {max-width: 40%;}
 .donat-methods > h5 + img {margin-left: 1.25rem;}
-.post-detail-info {
-    padding-left: 0rem;
-    padding-right: 6rem;
-}
+.post-detail-info {padding-left: 7rem;}
 .post-info2-inner {max-width: 5.2rem;}
 .post-date2 > span {font-size: 2rem;}
 .pack-head > p + span {margin-top: 10px;}

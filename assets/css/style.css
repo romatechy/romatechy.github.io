@@ -341,12 +341,10 @@ footer {
 .wide-sec {
   width: calc(100% + 18.75rem);
   margin-left: -9.375rem;
-  margin-right: -9.375rem;
 }
 .wide-sec2 {
   width: calc(100% + 10rem);
   margin-left: -5rem;
-  margin-right: -5rem;
 }
 
 /*=== Column Gap ===*/
